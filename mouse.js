@@ -5,5 +5,4 @@ function mouse(){
 mouse.prototype.dead = function(){
     this.dead = false;
 }
-
-exports.modoule = mouse;
+module.exports = mouse;
