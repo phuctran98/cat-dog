@@ -1,4 +1,8 @@
 function cat(){
-    var a = 0;
+    var stomach = [];
+}
+
+cat.prototype.eat = function(mouse){
+    stomach.push(mouse);
 }
 exports.module = cat;
